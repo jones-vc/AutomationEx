@@ -10,7 +10,7 @@ from drivermanager import DriverManager
 # from pageobjects import LoginPage, MenuPage, WelcomePage
 
 # Initialize driver with get_driver function from DriverManager class
-driver = DriverManager.get_driver()
+driver = DriverManager.get_driver() # Drivermanager.get_driver()
 
 # Navigate to webpage - to be included in login method?
 driver.get("https://satrngselcypr.z16.web.core.windows.net/")
